@@ -1,0 +1,32 @@
+.heading{
+    text-align: center;
+    border: solid black 2px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.container{
+    z-index: 10;
+    position: sticky;
+    top: 0px;
+    background-color: white;
+}
+
+.gallery{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap:20px;
+    justify-items: center;
+}
+
+@media(max-width:768px){
+    .gallery{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media(max-width:480px){
+    .gallery{
+        grid-template-columns:1fr;
+    }
+}
