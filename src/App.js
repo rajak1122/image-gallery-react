@@ -1,4 +1,3 @@
-import ImageCard from "./components/ImageCard";
 import Gallery from "./components/Gallery";
 
 function App() {
